@@ -1,0 +1,11 @@
+server:
+  port: 9002
+
+spring:
+  banner:
+    location: banner.txt
+    charset: UTF-8
+
+logging:
+  pattern:
+    console: '%clr(%-5p) %clr(:){red} %clr(%m){faint}%n'
